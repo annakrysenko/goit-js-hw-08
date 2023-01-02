@@ -28,7 +28,7 @@ new SimpleLightbox('.gallery a', {
     fadeSpeed: 150,
   });
 
-  
+
 // const markup = galleryItems
 //   .map(image => `<div class="gallery__item">
 //                     <a class="gallery__link" href="${image.original}">
