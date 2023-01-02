@@ -1,3 +1,4 @@
+
 import Player from "@vimeo/player";
 import throttle from "lodash.throttle";
 
@@ -21,4 +22,4 @@ const setTime = function (data) {
 };
 
 player.on("play", onPlay);
-player.on("timeupdate", throttle(setTime, 1000));
+player.on("timeupdate", throttle(setTime, 1000))
